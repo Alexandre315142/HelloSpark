@@ -1,0 +1,6 @@
+name: Hello Spark CI 
+
+on:
+  push:
+    branches:
+      - "developement"
