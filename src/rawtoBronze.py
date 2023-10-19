@@ -1,4 +1,4 @@
-from utils.helpers import getLocalSparkSession
+from usages.helpers import getLocalSparkSession
 
 
 spark = getLocalSparkSession(appName="Hello Spark", localThread= 'local[3]')
